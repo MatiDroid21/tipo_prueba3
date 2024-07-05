@@ -18,15 +18,19 @@ def menu_estadisticas():
         
         if opcion_estadisticas == 1:
             print("=== Venta Más Alta ===")
+            print("")
             estadisticas.venta_mas_alta()
         elif opcion_estadisticas == 2:
             print("=== Venta Más Baja ===")
+            print("")
             estadisticas.venta_mas_baja()
         elif opcion_estadisticas == 3:
             print("=== Promedio ===")
+            print("")
             estadisticas.obtener_promedio()
         elif opcion_estadisticas == 4:
             print("=== Media Geométrica ===")
+            print("")
             estadisticas.obtener_media()
         elif opcion_estadisticas == 5:
             return

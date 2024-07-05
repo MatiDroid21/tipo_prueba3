@@ -9,7 +9,7 @@ def seleccionar_opcion(max_value):
         except:
             pass
         if opcion < 1 or opcion > max_value:
-            input("Opción inválida, intente nuevamente >> ")
+            input("Opción inválida, presione Enter para reintentar >> ")
         else:
             return opcion
 
